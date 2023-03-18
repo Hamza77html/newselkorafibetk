@@ -1,1 +1,49 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal';
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gold;
+}
+.book {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gold;
+    color: white;
+    line-height: 80px;
+}
+li {
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gold;
+    color: white;
+    line-height: 80px;
+    padding: 5px 20px;
+}
+a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 17px;
+    border-radius: 40px;
+    color: #225;
+}
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Roboto slap';
+    padding: 35px;
+}
+a.active,a:hover {
+    background-color: white;
+    transition: .3s;
+    border-radius: 40px;
+}
